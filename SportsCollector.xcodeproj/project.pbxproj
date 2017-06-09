@@ -13,6 +13,8 @@
 		9F74B03A1EE9DFB6008BAC18 /* SportsCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B0381EE9DFB6008BAC18 /* SportsCollector.xcdatamodeld */; };
 		9F74B03C1EE9DFB6008BAC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F74B03B1EE9DFB6008BAC18 /* Assets.xcassets */; };
 		9F74B03F1EE9DFB6008BAC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74B03D1EE9DFB6008BAC18 /* LaunchScreen.storyboard */; };
+		9F74B0471EE9E65B008BAC18 /* tennis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F74B0461EE9E65B008BAC18 /* tennis.jpg */; };
+		9F74B0491EE9E852008BAC18 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74B0481EE9E852008BAC18 /* SportsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9F74B03B1EE9DFB6008BAC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F74B03E1EE9DFB6008BAC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F74B0401EE9DFB6008BAC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F74B0461EE9E65B008BAC18 /* tennis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennis.jpg; sourceTree = "<group>"; };
+		9F74B0481EE9E852008BAC18 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				9F74B0311EE9DFB6008BAC18 /* AppDelegate.swift */,
+				9F74B0461EE9E65B008BAC18 /* tennis.jpg */,
 				9F74B0331EE9DFB6008BAC18 /* ViewController.swift */,
+				9F74B0481EE9E852008BAC18 /* SportsViewController.swift */,
 				9F74B0351EE9DFB6008BAC18 /* Main.storyboard */,
 				9F74B03B1EE9DFB6008BAC18 /* Assets.xcassets */,
 				9F74B03D1EE9DFB6008BAC18 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			files = (
 				9F74B03F1EE9DFB6008BAC18 /* LaunchScreen.storyboard in Resources */,
 				9F74B03C1EE9DFB6008BAC18 /* Assets.xcassets in Resources */,
+				9F74B0471EE9E65B008BAC18 /* tennis.jpg in Resources */,
 				9F74B0371EE9DFB6008BAC18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 				9F74B0341EE9DFB6008BAC18 /* ViewController.swift in Sources */,
 				9F74B03A1EE9DFB6008BAC18 /* SportsCollector.xcdatamodeld in Sources */,
 				9F74B0321EE9DFB6008BAC18 /* AppDelegate.swift in Sources */,
+				9F74B0491EE9E852008BAC18 /* SportsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +313,7 @@
 				9F74B0451EE9DFB6008BAC18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
