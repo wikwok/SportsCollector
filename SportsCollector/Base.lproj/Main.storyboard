@@ -38,7 +38,7 @@
                     <navigationItem key="navigationItem" id="reM-F9-aKi">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="TWe-yq-9pT">
                             <connections>
-                                <segue destination="Kcu-kD-Rkl" kind="show" id="vRP-nZ-tA6"/>
+                                <segue destination="Kcu-kD-Rkl" kind="show" identifier="sportSegue" id="vRP-nZ-tA6"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -82,12 +82,21 @@
                                     <action selector="addTapped:" destination="Kcu-kD-Rkl" eventType="touchUpInside" id="Up8-2G-zhb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86L-qG-o3z">
+                                <rect key="frame" x="165" y="386" width="45" height="30"/>
+                                <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="deleteTapped:" destination="Kcu-kD-Rkl" eventType="touchUpInside" id="hZW-6q-Uom"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="kVg-mf-Iee" firstAttribute="top" secondItem="emN-RH-b26" secondAttribute="bottom" constant="20" id="0Yd-Fd-48i"/>
+                            <constraint firstItem="86L-qG-o3z" firstAttribute="centerX" secondItem="OdV-PD-4KQ" secondAttribute="centerX" id="BJE-xV-cdy"/>
                             <constraint firstItem="hdP-QW-Lr0" firstAttribute="width" secondItem="kVg-mf-Iee" secondAttribute="width" id="F7a-fX-qqa"/>
                             <constraint firstItem="EL9-eJ-zx2" firstAttribute="top" secondItem="hdP-QW-Lr0" secondAttribute="bottom" constant="43" id="Gs2-4q-Kdx"/>
+                            <constraint firstItem="86L-qG-o3z" firstAttribute="top" secondItem="EL9-eJ-zx2" secondAttribute="bottom" constant="8" id="f7L-Di-krQ"/>
                             <constraint firstItem="EL9-eJ-zx2" firstAttribute="centerX" secondItem="OdV-PD-4KQ" secondAttribute="centerX" id="jeT-89-WYu"/>
                             <constraint firstItem="hdP-QW-Lr0" firstAttribute="centerX" secondItem="OdV-PD-4KQ" secondAttribute="centerX" id="ppL-HM-daa"/>
                             <constraint firstItem="hdP-QW-Lr0" firstAttribute="top" secondItem="kVg-mf-Iee" secondAttribute="bottom" constant="41" id="w5x-fr-THW"/>
@@ -109,6 +118,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="addUpdateButton" destination="EL9-eJ-zx2" id="TDv-vO-dBO"/>
+                        <outlet property="deleteButton" destination="86L-qG-o3z" id="Lbc-Ww-ct3"/>
                         <outlet property="sportsImageView" destination="kVg-mf-Iee" id="h9g-nF-etA"/>
                         <outlet property="titleTextField" destination="hdP-QW-Lr0" id="g6g-82-JT7"/>
                     </connections>
